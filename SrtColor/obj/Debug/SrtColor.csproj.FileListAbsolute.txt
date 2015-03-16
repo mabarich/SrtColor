@@ -1,0 +1,10 @@
+c:\users\marco\documents\visual studio 2013\Projects\SrtColor\SrtColor\bin\Debug\SrtColor.exe.config
+c:\users\marco\documents\visual studio 2013\Projects\SrtColor\SrtColor\obj\Debug\SrtColor.csprojResolveAssemblyReference.cache
+c:\users\marco\documents\visual studio 2013\Projects\SrtColor\SrtColor\obj\Debug\SrtColor.Form1.resources
+c:\users\marco\documents\visual studio 2013\Projects\SrtColor\SrtColor\obj\Debug\SrtColor.Properties.Resources.resources
+c:\users\marco\documents\visual studio 2013\Projects\SrtColor\SrtColor\obj\Debug\SrtColor.csproj.GenerateResource.Cache
+c:\users\marco\documents\visual studio 2013\Projects\SrtColor\SrtColor\bin\Debug\SrtColor.exe
+c:\users\marco\documents\visual studio 2013\Projects\SrtColor\SrtColor\bin\Debug\SrtColor.pdb
+c:\users\marco\documents\visual studio 2013\Projects\SrtColor\SrtColor\obj\Debug\SrtColor.exe
+c:\users\marco\documents\visual studio 2013\Projects\SrtColor\SrtColor\obj\Debug\SrtColor.pdb
+C:\Users\Marco\documents\visual studio 2013\Projects\SrtColor\SrtColor\obj\Debug\SrtColor.Form2.resources
