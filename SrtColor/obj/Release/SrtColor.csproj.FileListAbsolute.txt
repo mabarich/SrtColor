@@ -1,0 +1,9 @@
+C:\Users\Marco\Desktop\File Vari e Cartelle Varie\Progetti\SrtColor\SrtColor\bin\Release\SrtColor.exe.config
+C:\Users\Marco\Desktop\File Vari e Cartelle Varie\Progetti\SrtColor\SrtColor\bin\Release\SrtColor.exe
+C:\Users\Marco\Desktop\File Vari e Cartelle Varie\Progetti\SrtColor\SrtColor\bin\Release\SrtColor.pdb
+C:\Users\Marco\Desktop\File Vari e Cartelle Varie\Progetti\SrtColor\SrtColor\obj\Release\SrtColor.Form1.resources
+C:\Users\Marco\Desktop\File Vari e Cartelle Varie\Progetti\SrtColor\SrtColor\obj\Release\SrtColor.Form2.resources
+C:\Users\Marco\Desktop\File Vari e Cartelle Varie\Progetti\SrtColor\SrtColor\obj\Release\SrtColor.Properties.Resources.resources
+C:\Users\Marco\Desktop\File Vari e Cartelle Varie\Progetti\SrtColor\SrtColor\obj\Release\SrtColor.csproj.GenerateResource.Cache
+C:\Users\Marco\Desktop\File Vari e Cartelle Varie\Progetti\SrtColor\SrtColor\obj\Release\SrtColor.exe
+C:\Users\Marco\Desktop\File Vari e Cartelle Varie\Progetti\SrtColor\SrtColor\obj\Release\SrtColor.pdb

@@ -8,3 +8,13 @@ c:\users\marco\documents\visual studio 2013\Projects\SrtColor\SrtColor\bin\Debug
 c:\users\marco\documents\visual studio 2013\Projects\SrtColor\SrtColor\obj\Debug\SrtColor.exe
 c:\users\marco\documents\visual studio 2013\Projects\SrtColor\SrtColor\obj\Debug\SrtColor.pdb
 C:\Users\Marco\documents\visual studio 2013\Projects\SrtColor\SrtColor\obj\Debug\SrtColor.Form2.resources
+C:\Users\Marco\Desktop\File Vari e Cartelle Varie\Progetti\SrtColor\SrtColor\bin\Debug\SrtColor.exe.config
+C:\Users\Marco\Desktop\File Vari e Cartelle Varie\Progetti\SrtColor\SrtColor\obj\Debug\SrtColor.exe
+C:\Users\Marco\Desktop\File Vari e Cartelle Varie\Progetti\SrtColor\SrtColor\obj\Debug\SrtColor.pdb
+C:\Users\Marco\Desktop\File Vari e Cartelle Varie\Progetti\SrtColor\SrtColor\bin\Debug\SrtColor.exe
+C:\Users\Marco\Desktop\File Vari e Cartelle Varie\Progetti\SrtColor\SrtColor\bin\Debug\SrtColor.pdb
+C:\Users\Marco\Desktop\File Vari e Cartelle Varie\Progetti\SrtColor\SrtColor\obj\Debug\SrtColor.csprojResolveAssemblyReference.cache
+C:\Users\Marco\Desktop\File Vari e Cartelle Varie\Progetti\SrtColor\SrtColor\obj\Debug\SrtColor.Form1.resources
+C:\Users\Marco\Desktop\File Vari e Cartelle Varie\Progetti\SrtColor\SrtColor\obj\Debug\SrtColor.Form2.resources
+C:\Users\Marco\Desktop\File Vari e Cartelle Varie\Progetti\SrtColor\SrtColor\obj\Debug\SrtColor.Properties.Resources.resources
+C:\Users\Marco\Desktop\File Vari e Cartelle Varie\Progetti\SrtColor\SrtColor\obj\Debug\SrtColor.csproj.GenerateResource.Cache

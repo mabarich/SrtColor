@@ -52,9 +52,9 @@ namespace SrtColor
             String line, lastline = "";
             string name = openFileDialog1.FileName;
             if (!add)
-                this.Text = Path.GetFileName(name);
+                this.Text = this.Text + ": " + Path.GetFileName(name);
             else
-                this.Text = this.Text + "+" + Path.GetFileName(name);
+                this.Text = this.Text + " + " + Path.GetFileName(name);
             try
             {
                 StreamReader sr = new StreamReader(name, Encoding.GetEncoding(1252));
@@ -170,7 +170,8 @@ namespace SrtColor
             button8.Visible = false;
             button9.Visible = false;
             button10.Visible = false;
-            millisecondi=0;
+            button11.Visible = false;
+            millisecondi =0;
             filecount = 0;
             add = false;
             edit = true;
@@ -367,6 +368,7 @@ namespace SrtColor
                 testi[i] = testi[i].ToString().Replace("Il jutsu", "La tecnica");
                 testi[i] = testi[i].ToString().Replace("il jutsu", "la tecnica");
                 testi[i] = testi[i].ToString().Replace("chakra", "Chakra");
+                testi[i] = testi[i].ToString().Replace("chackra", "Chakra");
             } 
         }
 
@@ -405,6 +407,7 @@ namespace SrtColor
         {
             sostituisci();
             aggiorna();
+            label2.ForeColor = System.Drawing.Color.Green;
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -412,6 +415,7 @@ namespace SrtColor
             colore = "#" + textBox1.Text.Trim() ;
             colora(colore);
             aggiorna();
+            label1.ForeColor = System.Drawing.Color.Green;
         }
 
         private void aggiorna()
@@ -447,6 +451,7 @@ namespace SrtColor
                 button8.Visible = true;
                 button9.Visible = true;
                 button10.Visible = true;
+                button11.Visible = true;
                 dataGridView1.ColumnCount = 2;
                 dataGridView1.Columns[0].Name = "Time";
                 dataGridView1.Columns[0].Width = dataGridView1.Width * 12 / 100;
@@ -600,6 +605,45 @@ namespace SrtColor
                     }
                     TimeSpan ts = TimeSpan.ParseExact(inizio, @"hh\:mm\:ss\,fff", CultureInfo.InvariantCulture);
                     double totlaMilliseconds = ts.TotalMilliseconds + millisecondi;
+                    TimeSpan ts2 = TimeSpan.ParseExact(fine, @"hh\:mm\:ss\,fff", CultureInfo.InvariantCulture);
+                    double totlaMilliseconds2 = ts2.TotalMilliseconds + millisecondi;
+                    TimeSpan t0 = TimeSpan.FromMilliseconds(totlaMilliseconds);
+                    string answer = t0.ToString(@"hh\:mm\:ss\,fff");
+                    TimeSpan t2 = TimeSpan.FromMilliseconds(totlaMilliseconds2);
+                    string answer2 = t2.ToString(@"hh\:mm\:ss\,fff");
+                    tempi[riga] = answer + " --> " + answer2;
+                    aggiorna();
+                }
+            }
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            if (dataGridView1.SelectedRows.Count > 0)
+            {
+                Form2 f2 = new Form2(this);
+                f2.ShowDialog();
+                for (int i = 0; i < dataGridView1.SelectedRows.Count; i++)
+                {
+                    int riga = dataGridView1.SelectedRows[i].Index;
+                    string tempo = tempi[riga].ToString();
+                    string inizio = "";
+                    string fine = "";
+                    char[] caratteri = tempo.ToCharArray();
+                    int j = 0;
+                    inizio += caratteri[j];
+                    while (caratteri[j] != ' ' && caratteri[j + 1] != '-' && caratteri[j + 2] != '-' && caratteri[j + 3] != '>')
+                    {
+                        j++;
+                        inizio += caratteri[j];
+                    }
+                    j = j + 6;
+                    for (int k = j; k < caratteri.Length; k++)
+                    {
+                        fine += caratteri[k];
+                    }
+                    TimeSpan ts = TimeSpan.ParseExact(inizio, @"hh\:mm\:ss\,fff", CultureInfo.InvariantCulture);
+                    double totlaMilliseconds = ts.TotalMilliseconds;
                     TimeSpan ts2 = TimeSpan.ParseExact(fine, @"hh\:mm\:ss\,fff", CultureInfo.InvariantCulture);
                     double totlaMilliseconds2 = ts2.TotalMilliseconds + millisecondi;
                     TimeSpan t0 = TimeSpan.FromMilliseconds(totlaMilliseconds);
